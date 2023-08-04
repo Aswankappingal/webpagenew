@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: font-family: 'Borel', cursive; */
+.mainleft h3{
+    margin-top: 10px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    color: rgb(241, 217, 217);
+}
+.mainright a{
+    text-decoration: none;
+    color: rgb(248, 230, 230);
+    font-size: 20px;
+    margin-right: 95px;
+}
+.mainright{
+    padding-top: 14px;
+}
+.mainright a:hover{
+    color: white;
+    border-bottom: 2px solid rgb(243, 243, 178);
+}
+.mainright span{
+    background-color: rgb(243, 243, 178);
+    color: black;
+    padding: 4px 15px;
+    border-radius: 6px;
+}
+.container-fluid{
+    background-color: rgb(27, 25, 25);
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+.back{
+    background-image: url(../images/coffee-latte-with-cookies-coffiee-beans.jpg);
+    background-repeat: no-repeat;
+    height: 380px;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+.nmain{
+
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+    height: 380px;
+}
+.subclass{
+    text-align: center;
+    padding: 100px;
+
+}
+.nmain a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.nmain a:hover {
+    background-color: rgb(48, 43, 43);
+    color: white;
+}
+
+.hmain{
+     font-size: 50px;
+     letter-spacing: 5px;
+     font-family: 'Open Sans', sans-serif;
+}
+.smain{
+    letter-spacing: 3px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.pmain p{
+    margin-top: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.btn{
+    margin-top: 13px;
+    letter-spacing: 2px;
+    
+}
+.btn a{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.fhead{
+    text-align: center;
+    padding-top: 40px;
+   
+}
+.fheadmain{
+    display: flex;
+    background-color: rgb(243, 243, 178);
+    height: 320px;
+}
+
+.fhead h2{
+    color:rgb(24, 22, 22);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.fhead p{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+
+}
+.series img{
+    width: 100%;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 100px;
+
+}
+.series p{
+ margin-left: 130px;
+}
+.know{
+    margin-top: 50px;
+}
+.know a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.know a:hover{
+    color: orangered;
+
+}
+/* no need */
+/* .greenm{
+    background-color: rgb(24, 18, 18);
+    height: 320px;
+}
+.green{
+    /* background-color: rgb(24, 18, 18);
+    height: 700px; */
+    /* margin-top: 20px; */
+
+.maingreen{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-left: 80px;
+ 
+}
+.maingreen a:hover{
+    color: white;
+}
+.maingreen a{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    font-size: 13px;
+}
+/* no need */
+.partsection h3{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    
+
+    
+
+}
+.partsectionsub{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'EB Garamond', serif;
+}
+.partsectionsub p{
+    margin-top: 60px;
+    letter-spacing: 1px;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+
+}
+.cards{
+    text-align: center;
+    margin-bottom: 100px;
+    box-shadow: -2px 3px 19px 4px rgba(242,239,242,1);
+    gap: 25px;
+}
+ @media (min-width:300px) and (max-width:575.98px)
+ {
+    .mainright a{
+        font-size: 10px;
+        margin-top: 55px;
+        margin-right: 75px;
+    }
+
+
+    .mainright span{
+       
+        padding: 2px 7px;
+        font-size: 10px;
+    }
+
+
+   .data{
+    text-align: center;
+   }
+   .nmain{
+    font-size:10px;
+    margin-top: 0px !important;
+    padding-top: 40px;
+    height: 150px;
+    justify-content: end;
+    align-items: center ;
+   }
+   .nmain a {
+    text-decoration: none;
+    font-size: 13px;
+    /* margin-top: 70px; */
+}
+   .back{
+    height: 160px;
+    width: 100%;
+   }
+   .hmain{
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+ }
+ .smain{
+    letter-spacing: 1px;
+    font-size: 13px;
+ }
+
+ 
+
+ .btn{
+    /* margin-top: 13px; */
+    letter-spacing: 1px;
+    /* margin-top: 0 !important; */
+    
+}
+ .btn a{
+   
+    font-size: 10px;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+}
+.series img{
+    width: 0%;
+
+}
+.pmain p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 0px !important;
+}
+.fheadmain{
+    
+    height: 480px; 
+}
+.fhead{
+    text-align: center;
+   
+}
+.fhead p{
+     text-align: justify;
+
+
+}
+.partsection h3{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.partsectionsub p{
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: justify;
+}
+.partsectionsub{
+       margin-top: 20px;
+
+}
+.images img{
+    width: 70%;
+}
+.cards{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+}
+@media(min-width: 576px) and ( max-width: 767.98px){
+    .mainright a{
+        font-size: 15px;
+        margin-top: 35px;
+        margin-right: 50px;
+    }
+    .mainright span{
+       
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+    
+   .data{
+    text-align: center;
+   }
+   .nmain{
+    font-size:15px;
+    margin-top: 0px !important;
+    padding-top: 40px;
+    height: 240px;
+    justify-content: end;
+    align-items: center ;
+   }
+   .nmain a {
+    font-size: 20px;
+    /* margin-top: 70px; */
+}
+   .back{
+    height: 240px;
+    width: 100%;
+   }
+   .hmain{
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+ }
+ .smain{
+    letter-spacing: 3px;
+    font-size: 20px;
+ }
+
+ 
+
+ .btn{
+    letter-spacing: 3px;
+    
+}
+ .btn a{
+   
+    font-size: 13px;
+    margin-top: 0 !important;
+    margin-bottom: 30px;
+}
+.series img{
+    width: 0%;
+
+}
+.pmain p{
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top: 0px !important;
+}
+.fheadmain{
+    
+    height: 400px; 
+}
+.fhead{
+    text-align: center;
+   
+}
+.fhead p{
+     text-align: justify;
+
+
+}
+.partsection h3{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.partsectionsub p{
+    margin-top: 0px;
+    font-size: 13px;
+    text-align: justify;
+}
+.partsectionsub{
+       margin-top: 20px;
+
+}
+.images img{
+    width: 50%;
+}
+}
+@media(min-width: 768px) and ( max-width: 991.98){
+
+    .mainright a{
+        font-size: 20px;
+        margin-top: 35px;
+        margin-right: 0px !important;
+    }
+    .mainright span{
+       
+        padding: 5px 10px;
+        font-size: 40px;
+    }
+    .data{
+        text-align: center;
+       }
+       /* .nmain{
+        font-size:30px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding-top: 40px;
+        height: 200px;
+        justify-content: end;
+        align-items: center ;
+       } */
+       .nmain a {
+        font-size: 10px;
+        
+    }
+       .back{
+        width: 100%;
+       }
+       .nmain{
+        font-size:10px;
+        margin-top: 0px !important;
+        padding-top: 40px;
+        height: 240px;
+        justify-content: end;
+        align-items: center ;
+       }
+       .nmain a {
+        font-size: 10px;
+        /* margin-top: 70px; */
+    }
+       .hmain{
+        font-size: 10px;
+        letter-spacing: 1px;
+        
+     }
+     .smain{
+        letter-spacing: 5px;
+        font-size: 10px;
+     }
+    
+     
+    
+     .btn{
+        letter-spacing: 3px;
+        
+    }
+     .btn a{
+       
+        font-size: 10px;
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .series img{
+        width: 100%;
+        margin-right: 50px;
+        /* margin-top: 100px; */
+        padding-top: 100px;
+        margin-left: 10px;
+        border-radius: 100px;
+    
+    }
+   .images img{
+    width: 35%;
+   }
+
+}
+@media(min-width: 992px) and ( max-width: 1199.98px){
+    .mainleft h3{
+        margin-top: 10px;
+        font-size: 22px;
+        letter-spacing: 2px;
+        padding-left: 40px;
+    }
+    .mainright a{
+        text-decoration: none;
+        color: rgb(248, 230, 230);
+        font-size: 20px;
+        margin-right: 95px;
+    }
+    .cards{
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+
